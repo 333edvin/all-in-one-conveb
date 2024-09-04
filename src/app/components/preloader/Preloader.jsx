@@ -25,8 +25,8 @@ export default function Preloader() {
       </div>
       <footer className="fixed bottom-0 left-0 w-full bg-black text-white text-center py-2">
         <div className="flex justify-center items-center">
-      <p className="text-sm">Powered by CONVEB </p>
       <Image src="/images/logo.png" width={50} height={50} alt="preloader" />
+      <p className="text-sm">Powered by CONVEB </p>
         </div>
     </footer>
     </div>

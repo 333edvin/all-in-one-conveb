@@ -53,6 +53,9 @@ export default function Home() {
   return (
     <>
     {isLoading && <Preloader />}
+    <div className="p-2 bg-black text-center text-white text-xs md:text-sm">
+      <p>The Site is Under Development Mode <br/> Some of the UI may misbehave</p>
+    </div>
     <div className="relative">
   <h1 className="absolute top-5 left-5 z-20 text-white text-xs md:text-lg px-3 py-1 bg-white/30 rounded-full">Tattoo Websites</h1>
   <div className="relative">
